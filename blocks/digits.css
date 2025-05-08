@@ -1,0 +1,61 @@
+.digits {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 50px 0;
+  position: relative;
+}
+
+.title__digits {
+  width: 60%;
+  margin-top: 50px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+}
+
+.subtitle__digits {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 140px;
+  right: 38%;
+}
+
+.table-cards__digits {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding: 30px;
+  position: absolute;
+  bottom: 100px;
+  left: 14%;
+  bottom: 0;
+}
+
+.table-card__digits {
+  width: 250px;
+}
+.table-card__digits:hover {
+  background-color: rgb(245, 244, 244);
+}
+
+.title-card {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.paragraph-card {
+  padding: 15px 0;
+  line-height: 1.12;
+  font-size: 18px;
+  font-weight: normal;
+}
