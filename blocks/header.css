@@ -6,6 +6,15 @@
   background-color: #f2f2f2;
 }
 
+@keyframes oscilar {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+}
 .header__title {
   font-size: 102px;
   line-height: 96px;
@@ -14,17 +23,33 @@
   position: absolute;
   bottom: 300px;
   left: 64px;
+  animation: oscilar 1s infinite;
 }
 
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
 .header__description {
   width: 388px;
   position: absolute;
   left: 64px;
   bottom: 30px;
+  animation: fade 2s infinite;
 }
 
 .link__header {
+  background-color: aqua;
   text-decoration: none;
+  color: #205fb1;
+}
+.link__header:hover {
+  opacity: 50%;
 }
 
 .header__main-illustration {
@@ -36,6 +61,15 @@
   z-index: 1;
 }
 
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .header__square-blue {
   width: 568px;
   height: 568px;
@@ -43,6 +77,8 @@
   position: absolute;
   top: 64px;
   right: 0;
+  overflow: hidden;
+  animation: girar 15s linear infinite;
 }
 
 .header__square-pic {
