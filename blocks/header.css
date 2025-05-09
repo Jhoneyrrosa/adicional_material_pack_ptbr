@@ -52,6 +52,17 @@
   opacity: 50%;
 }
 
+@keyframes vibrar {
+  0% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(-2px);
+  }
+}
 .header__main-illustration {
   width: 756px;
   height: 608px;
@@ -59,6 +70,7 @@
   bottom: -80px;
   right: 0;
   z-index: 1;
+  animation: vibrar 0.1s infinite;
 }
 
 @keyframes girar {

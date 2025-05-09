@@ -1,3 +1,12 @@
+@keyframes flutuar {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
 .logo_place_header {
   width: 154px;
   height: 31px;
@@ -5,4 +14,5 @@
   z-index: 10;
   top: 30px;
   left: 64px;
+  animation: flutuar 3s ease-in-out infinite;
 }
