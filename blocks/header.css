@@ -23,7 +23,7 @@
   position: absolute;
   bottom: 300px;
   left: 64px;
-  animation: oscilar 1s infinite;
+  animation: oscilar 2s infinite;
 }
 
 @keyframes fade {
@@ -70,7 +70,7 @@
   bottom: -80px;
   right: 0;
   z-index: 1;
-  animation: vibrar 0.1s infinite;
+  animation: vibrar 0.3s infinite;
 }
 
 @keyframes girar {
