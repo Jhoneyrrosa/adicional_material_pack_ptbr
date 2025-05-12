@@ -46,6 +46,7 @@
   padding-right: 50px;
   position: absolute;
   top: 340px;
+  text-decoration: none;
 }
 .link-mais__feynman:visited {
   color: purple;

@@ -64,11 +64,20 @@
   margin-top: 20px;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .kaufman__triangle {
-  height: 755px;
-  width: 890px;
+  height: 955px;
+  width: 1090px;
   position: absolute;
   top: 55px;
   right: -144px;
   z-index: -1;
+  animation: spin 20s linear infinite;
 }
