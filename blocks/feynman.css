@@ -28,7 +28,6 @@
 }
 
 .subtitle-feynman__feynman {
-  width: 100%;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -38,7 +37,7 @@
 }
 
 .link-mais__feynman {
-  width: 100%;
+  right: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;

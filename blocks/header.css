@@ -4,6 +4,7 @@
   max-height: 756px;
   position: relative;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 @keyframes oscilar {
@@ -89,11 +90,9 @@
   position: absolute;
   top: 64px;
   right: 0;
-  overflow: hidden;
   animation: girar 15s linear infinite;
 }
 
 .header__square-pic {
-  height: 568px;
-  width: 568px;
+  width: 100%;
 }
